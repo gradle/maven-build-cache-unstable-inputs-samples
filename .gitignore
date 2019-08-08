@@ -9,8 +9,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+.mvn/gradle-enterprise-workspace-id.txt
 
 # Exclude maven wrapper
 !/.mvn/wrapper/maven-wrapper.jar
-
-
