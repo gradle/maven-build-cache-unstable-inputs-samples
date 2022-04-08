@@ -24,7 +24,12 @@ public class ImplTest {
     public File sampleFile;
 
     @Test
-    public void testTheAnswer() throws Exception {
+    public void testTheAnswer() {
+        assertEquals(42, new Impl().getTheAnswer());
+    }
+
+    @Test
+    public void testTheSampleFileAnswers() throws Exception {
         List<String> lines = Files.readAllLines(sampleFile.toPath());
         assertEquals("42", lines.get(0));
     }
